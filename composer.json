@@ -1,0 +1,29 @@
+{
+    "name": "theapu/custom-report-plugin",
+    "description": "A Kimai 2 plugin, which allows to view weekly report for all users.",
+    "homepage": "https://github.com/theapu/Kimai-CustromReportBundle",
+    "type": "kimai-plugin",
+    "version": "1",
+    "require": {
+        "kimai/kimai2-composer": "*"
+    },
+    "keywords": [
+        "kimai",
+        "kimai-plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Apu V.",
+            "email": "theapu@live.com",
+            "homepage": "https://github.com/theapu/Kimai-CustromReportBundle"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": "1.10",
+            "version": "1.10",
+            "name": "CustomReportBundle"
+        }
+    }
+}
